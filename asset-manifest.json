@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/screamusc.github.io/static/css/main.83ca1592.css",
+    "main.js": "/screamusc.github.io/static/js/main.ceeceef5.js",
+    "static/js/787.cda27f41.chunk.js": "/screamusc.github.io/static/js/787.cda27f41.chunk.js",
+    "index.html": "/screamusc.github.io/index.html",
+    "main.83ca1592.css.map": "/screamusc.github.io/static/css/main.83ca1592.css.map",
+    "main.ceeceef5.js.map": "/screamusc.github.io/static/js/main.ceeceef5.js.map",
+    "787.cda27f41.chunk.js.map": "/screamusc.github.io/static/js/787.cda27f41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83ca1592.css",
+    "static/js/main.ceeceef5.js"
+  ]
+}
