@@ -19,9 +19,9 @@ const NavBar = () => {
                 <Navbar.Collapse id="navbar-nav" className="nav-link">
                     <Nav className="m-auto">
                         <Nav.Link className="nav-link" href="/">Home</Nav.Link>
-                        <Nav.Link className="nav-link" href="/eboard">Executive Board</Nav.Link>
-                        <Nav.Link className="nav-link" href="/gallery">Gallery</Nav.Link>
-                        <Nav.Link className="nav-link" href="/contact">Contact</Nav.Link>
+                        <Nav.Link className="nav-link" href="/#/eboard">Executive Board</Nav.Link>
+                        <Nav.Link className="nav-link" href="/#/gallery">Gallery</Nav.Link>
+                        <Nav.Link className="nav-link" href="/#/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
