@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import './../App.css';
 
 const Gallery = () => {
@@ -15,15 +16,17 @@ const Gallery = () => {
   ];
 
   return (
-    <div className="gallery">
-      <div className="gallery-grid">
+    // need to make the images responsive using bootstrap
+    // want solid edges, with a slight vertial padding
+    <Container>
+      <Row className="justify-content-md-center mt-4">
         {galleryImages.map((image, index) => (
-          <div key={index} className="gallery-item">
-              <img src={process.env.PUBLIC_URL + image.src} className="gallery-img" alt={image.caption} />
-          </div>
+          <Col key={index} xs={12} md={6} lg={4} className="my-2">
+            <Image src={process.env.PUBLIC_URL + image.src} className="" alt={image.caption} fluid />
+          </Col>
         ))}
-      </div>
-    </div>
+      </Row>
+    </Container>
   );
 };
 
